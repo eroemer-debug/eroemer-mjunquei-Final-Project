@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Data about Dogs</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://img.freepik.com/premium-vector/simple-cute-cartoon-dog-logo_633982-62.jpg" alt="Description" width=100 height=65 class="mr-2"><a class="navbar-brand" href="index.html">Dog Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="Dogbreeds.html">Dog Breeds</a></li>
+               <li class="nav-item"><a class="nav-link" href="Adoptiondata.html">Adoption Data</a></li>
+               <li class="nav-item"><a class="nav-link" href="NYCdogs.html">NYC Dogs</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div id="carousel-ID" class="carousel slide" data-ride="carousel" data-interval="3000">
+         <ol class="carousel-indicators">
+            <li data-target="#carousel-ID" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-ID" data-slide-to="1"></li>
+            <li data-target="#carousel-ID" data-slide-to="2"></li>
+            <li data-target="#carousel-ID" data-slide-to="3"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="https://brownvethospital.com/wp-content/uploads/2024/02/when-do-dogs-stop-growing.jpg" class="d-block w-100" alt="carousel image">
+            </div>
+            <div class="carousel-item">
+               <img src="https://media.modernluxury.com/ntgpghfuax/uploads/2024/11/08/GettyImages-153787739.jpeg" class="d-block w-100" alt="carousel image">
+            </div>
+            <div class="carousel-item">
+               <img src="https://s7d2.scene7.com/is/image/PetSmart/WEB-APR25W2-AHB24_DOG_DT" class="d-block w-100" alt="carousel image">
+            </div>
+            <div class="carousel-item">
+               <img src="https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg" class="d-block w-100" alt="carousel image">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carousel-ID" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-ID" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+      </div>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Dogs: Man's Best Friend</h1>
+         <p style="text-align: center;"> 
+            This website explores dog trends overall and specifically in New York City by analyzing five comprehensive 
+            datasets: NYC dog licensing records, dog bite incidents, popular dog names, adoption statistics, and breed 
+            characteristics. Using interactive Plotly visualizations including scatter plots, bar charts, heatmaps, pie 
+            charts, and geographical maps, we explore questions ranging from naming trends and breed popularity to bite 
+            incident patterns and adoption dynamics. Key insights reveal the relationship between breeds and bite incidents, 
+            identify which dog age groups find homes most quickly, uncover geographical patterns in breed origins worldwide, 
+            and compare NYC's canine preferences to overall trends. The analysis also examines how factors like special 
+            needs status, breed traits, and seasonal patterns influence adoption rates and public safety incidents, 
+            providing a data-driven perspective on urban pet ownership and breed behavior. 
+         </p>
+      </div>
+      <footer class="bg-light text-dark pt-5 pb-2 px-5">
+         <div class="row">
+            <div class="col-md-3">
+               <h2 class="mb-1">Thanks for reading!</h2>
+               <p class="mb-3"><small><em>Courtesy of </em></small></p>
+               <p> Eric Roemer <br> Mariana Junqueira Lira <br></p>
+               <ul class="list-inline mt-5">
+                  <li class="list-inline-item"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-github-alt" aria-hidden="true"></i></a></li>
+                  <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+            <div class="col-md-4">
+               <h5>Resources</h5>
+               <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/whenamancodes/dog-adoption" target="_blank">Adoption Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/marshuu/dog-breeds" target="_blank">Dog Breeds Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/new-york-city/nyc-dog-names" target="_blank">NYC Dog Names Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/mexwell/dog-bites-in-new-york?select=Dog_Bites_Data.csv" target="_blank">NYC Dog Bites Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp/about_data" target="_blank">NYC Dog Licensing Data Set</a></li>
+               </ul>
+            </div>
+         </div>
+         <hr>
+         <div class="row mt-4">
+            <div class="col-sm-6">
+               <p>Copyright © 2025 University of Notre Dame</p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Data about Dogs</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://img.freepik.com/premium-vector/simple-cute-cartoon-dog-logo_633982-62.jpg" alt="Description" width=100 height=65 class="mr-2"><a class="navbar-brand" href="index.html">Dog Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="Dogbreeds.html">Dog Breeds</a></li>
+               <li class="nav-item"><a class="nav-link" href="Adoptiondata.html">Adoption Data</a></li>
+               <li class="nav-item"><a class="nav-link" href="NYCdogs.html">NYC Dogs</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Adoption Data</h1>
+         <p>These visualizations show the different data on adoptable dogs in various locations and looks at these dogs based on different 
+            factors such as size, behaviors and traits. The data reveals how certain behaviors can cause dogs to stay in shelters
+            and also how size plays a role in adoptions rates.
+         </p>
+         <div style="display: block; margin-left: auto; margin-right: auto; width: fit-content;">
+            <embed src="./Size_adoption.html"
+            type="text/html" height="700" width="1000" />
+         </div>
+         <p style="text-align: center;">
+            This pie chart breaks down adoptable dogs by size, with Medium dogs dominating at 51.4%, followed by 
+            Large dogs at 27.1%, Small dogs at 19.9%, and Extra Large dogs at just 1.6%. The preference for small-sized 
+            dogs in adoptions likely reflects their easy lifestyle, they're small enough for living in the suburbs or 
+            for apartment living, which is usually taken into consideration during adoption. Shelter data shows that small 
+            dogs spend an average of 2.7 months in shelters, medium-sized dogs 4.5 months, and large dogs 10.4 months, 
+            meaning large dogs need almost 4 times longer to get adopted compared to smaller dogs, which explains the data. 
+            (<a href="https://www.11pets.com/en/news/small-medium-or-large-which-size-of-dog-are-adopted-more">More data</a>)
+         </p>
+         <div style="display: block; margin-left: auto; margin-right: auto; width: fit-content;">
+            <embed src="./traits.html"
+            type="text/html" height="700" width="1000" />
+         </div>
+         <p style="text-align: center;">
+            This parallel categories diagram reveals how four interconnected factors (mixed breed status, special needs, 
+            house training, and age) shape adoption patterns. The flowing bands between categories illuminate important 
+            trends in the adoptable dog population. Mixed breed dogs constitute a substantial portion of adoptable animals, 
+            reflecting typical shelter demographics. Unsurprisingly, most adopted dogs do not have special needs, as families 
+            often prefer dogs requiring less specialized care or medical attention. However, house training status plays a 
+            smaller role than expected. Non-house-trained dogs are adopted in numbers nearly comparable to house-trained 
+            ones, suggesting that many adopters prioritize other factors like temperament and appearance, or are simply 
+            willing to invest time in training.
+            Age emerges as a more critical factor, with senior dogs noticeably underrepresented in adoptions. The diagram 
+            also reveals a logical relationship between age and house training: most house-trained dogs are Young or Adult, 
+            while Baby dogs are typically untrained (expected for puppies), and Senior dogs show mixed training status. 
+            These patterns highlight both the flexibility adopters show regarding some factors and the persistent 
+            preferences in other categories.
+         </p>
+         <div style="display: block; margin-left: auto; margin-right: auto; width: fit-content;">
+            <embed src="./House_trained.html"
+            type="text/html" height="700" width="1000"/>
+         </div>
+         <p style="text-align: center;">
+            This stacked bar chart compares house training rates between male and female adoptable dogs (with an "Unknown" 
+            category), showing that both genders have similar proportions of house-trained versus not house-trained dogs. 
+            Surprisingly, this graph shows that being house trained or not is not one of the main factors taken into 
+            consideration by families when adopting dogs. However, it is also worth noting that female the count of female
+            dogs in general was much higher than that of male dogs suggesting that people prefer to adopt male dogs.
+         </p>
+      </div>
+      <footer class="bg-light text-dark pt-5 pb-2 px-5">
+         <div class="row">
+            <div class="col-md-3">
+               <h2 class="mb-1">Thanks for reading!</h2>
+               <p class="mb-3"><small><em>Courtesy of </em></small></p>
+               <p> Eric Roemer <br> Mariana Junqueira Lira <br></p>
+               <ul class="list-inline mt-5">
+                  <li class="list-inline-item"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-github-alt" aria-hidden="true"></i></a></li>
+                  <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+            <div class="col-md-4">
+               <h5>Resources</h5>
+               <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/whenamancodes/dog-adoption" target="_blank">Adoption Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/marshuu/dog-breeds" target="_blank">Dog Breeds Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/new-york-city/nyc-dog-names" target="_blank">NYC Dog Names Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://www.kaggle.com/datasets/mexwell/dog-bites-in-new-york?select=Dog_Bites_Data.csv" target="_blank">NYC Dog Bites Data Set</a></li>
+                  <li class="list-group-item py-1 bg-transparent border-0"><a href="https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp/about_data" target="_blank">NYC Dog Licensing Data Set</a></li>
+               </ul>
+            </div>
+         </div>
+         <hr>
+         <div class="row mt-4">
+            <div class="col-sm-6">
+               <p>Copyright © 2025 University of Notre Dame</p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
